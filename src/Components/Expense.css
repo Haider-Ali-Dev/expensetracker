@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.name {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.logs {
+    overflow:scroll;
+    border: 2px solid;
+    height: 100px;
+    padding: 20px;
+}
+
+.logs:hover {
+    background-color: lightgreen;
+}
+.user-inputs {
+    box-shadow: 2px 1px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.user-inputs button {
+    width: fit-content;
+    padding: 5px;
+
+}
+
+.user-inputs input:hover {
+    background-color: yellow;
+}
+.user-inputs input {
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.user-btns {
+    display: flex;
+    gap: 9px;
+}
+
+
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+
+.main {
+    /* width: fit-content; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.data-red {
+    border-left: 5px solid red;
+    padding: 3px;
+}
+.data-green {
+    border-left: 5px solid green;
+    padding: 3px;
+}
